@@ -1,10 +1,10 @@
 /* diagnostic styling */
 /* * {
-    outline: 1px dotted gray;
-  } */
-  
-  /* layout */
-  body {
+  outline: 10px solid gray;
+} */
+
+/* layout */
+body {
     display: flex;
     justify-content: center;
     align-items: center;
