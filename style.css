@@ -1,0 +1,37 @@
+/* Diagnostic Styling */
+/* * {
+    outline: 1px dotted gray;
+  } */
+  
+  main {
+  
+    /*  make two colums  */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 1fr 1fr */
+  }
+  
+  article {
+    background: #0d90c2;
+    padding: 2em;
+  
+    /*  vert center. horiz center.  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  aside {
+    background: lightcoral;
+  }
+  
+  aside img {
+    /* fit image to container */
+    display: block;
+    max-width: 100%;
+  
+    /* full height image. Fit to container. no stretching. */
+    height: 100vh;
+    object-fit: cover;
+  }
+  
