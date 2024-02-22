@@ -158,7 +158,7 @@ article p {
 
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
 
   aside img {
       /* fit image to container */
