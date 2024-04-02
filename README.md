@@ -3,4 +3,4 @@
 Write a bio about yourself. Include your name, where you're from, what you do, and what you're interested in.
 
 ## Major
-I am an Art major.
+I am an Art major teaching Design.
