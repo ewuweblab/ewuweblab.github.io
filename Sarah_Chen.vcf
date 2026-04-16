@@ -1,0 +1,17 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Sarah Chen
+N:Chen;Sarah;;;
+ORG:Acme Design Studio
+TITLE:Product Designer
+EMAIL;TYPE=INTERNET:sarah.chen@acme.design
+TEL;TYPE=CELL:+1 555 234 5678
+URL:https://sarahchen.design
+X-SOCIALPROFILE;TYPE=linkedin:https://linkedin.com/in/sarahchen
+X-SOCIALPROFILE;TYPE=tiktok:https://tiktok.com/@sarahchen
+X-SOCIALPROFILE;TYPE=github:https://github.com/sarahchen
+X-SOCIALPROFILE;TYPE=instagram:https://instagram.com/sarahchen.design
+X-SOCIALPROFILE;TYPE=facebook:https://facebook.com/sarah.chen
+ADR;TYPE=WORK:;;123 Design Street;San Francisco;;USA
+NOTE:Specializing in mobile app design and user experience
+END:VCARD
