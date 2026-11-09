@@ -1,15 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P. Colin Manikoth</title>
-</head>
-<body>
-    
-<h1>P. Colin Manikoth</h1>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>P. Colin Manikoth</title>
 
-<p>Welcome to my website...</p>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Diagnostic or Temporary Styling -->
+    <style type="text/tailwindcss">
+    @layer components {
+        .link {
+        @apply block rounded-lg border border-neutral-200 bg-white px-4 py-3 font-medium
+             transition-colors hover:bg-neutral-100
+             focus-visible:outline-2 focus-visible:outline-offset-2
+             dark:border-neutral-800 dark:bg-neutral-900 dark:hover:bg-neutral-800;
+        }
+    }
+    </style>
+
+</head>
+<body class="min-h-dvh bg-neutral-50 text-neutral-900 antialiased
+            dark:bg-neutral-950 dark:text-neutral-100">
+  
+<main class="max-w-md mx-auto px-6 py-16 text-center">
+
+    <img src="me.jpg" alt="P. Colin Manikoth" class="mx-auto rounded-[20px] size-full">
+    
+    <h1 class="mt-4 text-xl font-semibold">P. Colin Manikoth</h1>
+    
+    <p class="mt-1 text-sm text-neutral-500 dark:text-neutral-400">I am an amateur life coach passionate about helping individuals achieve personal growth and fulfillment. I believe in the power of self-discovery and continuous learning to navigate life's challenges effectively.</p>
+
+    <ul class="mt-8 space-y-6">
+      
+      <li><a href="https://manikoth.com/" 
+        class="link">Website</a></li>
+      
+      <li><a href="https://www.linkedin.com/in/p-colin-manikoth-53a415217" 
+        class="link"
+        >LinkedIn</a></li>
+      
+      <li><a href="https://github.com/ewuweblab" 
+        class="link">GitHub</a></li>
+      
+      <li><a href="mailto:pmanikoth@ewu.edu" 
+        class="link">Contact</a></li>
+    
+    </ul>
+
+</main>
 
 </body>
 </html>
